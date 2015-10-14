@@ -1,0 +1,25 @@
+{
+	"name": "ondrejd/od-eshop-plugin",
+	"description": "WordPress plug-in for simple e-shops on your blog/site.",
+	"homepage": "https://github.com/ondrejd/od-eshop-plugin",
+	"type": "plugin",
+	"license": "MPL-2.0",
+	"keywords": ["wordpress","plugin"],
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Ondřej Doněk",
+			"email": "ondrejd@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"classmap": [
+			"./"
+		]
+	},
+	"require": {
+		"php": ">=5.3.1",
+		"ondrejd/odwp": "dev-master"
+	}
+}
